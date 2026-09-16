@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="nb">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Kontakt — Bjørn Rude Jacobsen</title>
+<style>
+  :root { --bg:#faf9f7; --fg:#1b1b1b; --muted:#666; --card:#fff; --line:#e4e1dc; --accent:#1f5fbf; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#141414; --fg:#eee; --muted:#9a9a9a; --card:#1e1e1e; --line:#333; --accent:#7fb0ff; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; padding:24px 16px; background:var(--bg); color:var(--fg);
+         font:17px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width:420px; margin:0 auto; background:var(--card); border:1px solid var(--line);
+         border-radius:14px; padding:28px 24px; }
+  h1 { margin:0 0 20px; font-size:1.5rem; }
+  dl { margin:0; }
+  dt { color:var(--muted); font-size:.85rem; margin-top:14px; }
+  dd { margin:2px 0 0; font-size:1.1rem; }
+  a { color:var(--accent); text-decoration:none; }
+  .save { display:block; margin-top:26px; padding:12px; text-align:center; border-radius:10px;
+          background:var(--accent); color:#fff; font-weight:600; }
+  @media (prefers-color-scheme: dark) { .save { color:#000; } }
+  footer { max-width:420px; margin:14px auto 0; text-align:center; color:var(--muted); font-size:.8rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Bjørn Rude Jacobsen</h1>
+  <dl>
+    <dt>Telefon</dt>
+    <dd><a href="tel:+4700000000">+47 000 00 000</a></dd>
+    <dt>E-post</dt>
+    <dd><a href="mailto:navn@example.com">navn@example.com</a></dd>
+  </dl>
+  <a class="save" href="contact.vcf">Lagre kontakt</a>
+</main>
+<footer>Oppdatert 2026-09-16</footer>
+</body>
+</html>

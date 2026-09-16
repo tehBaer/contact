@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Jacobsen;Bjørn;Rude;;
+FN:Bjørn Rude Jacobsen
+TEL;TYPE=CELL:+4700000000
+EMAIL:navn@example.com
+URL:https://tehbaer.github.io/contact/
+END:VCARD
